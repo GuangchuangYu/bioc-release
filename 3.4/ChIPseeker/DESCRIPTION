@@ -1,0 +1,78 @@
+Package: ChIPseeker
+Type: Package
+Title: ChIPseeker for ChIP peak Annotation, Comparison, and Visualization
+Version: 1.10.0
+Authors@R: c(person(given = "Guangchuang", family = "Yu",
+	            email = "guangchuangyu@gmail.com",
+		    role  = c("aut", "cre")),
+	     person(given = "Yun", family = "Yan",
+    	            email = "youryanyun@gmail.com",
+	            role = "ctb"),
+	     person(given = "Herve", family = "Pages",
+	            email = "hpages@fhcrc.org",
+	            role  = "ctb"),
+	     person(given = "Michael", family = "Kluge",
+	            email = "michael.kluge@bio.ifi.lmu.de",
+	            role  = "ctb"),
+	     person(given = "Thomas", family = "Schwarzl",
+	            email = "schwarzl@embl.de",
+	            role  = "ctb")
+	    )
+Author: Guangchuang Yu <guangchuangyu@gmail.com> with contributions from
+    Yun Yan, Herve Pages, Michael Kluge and Thomas Schwarzl.
+Maintainer: Guangchuang Yu <guangchuangyu@gmail.com>
+Description: This package implements functions to retrieve the nearest genes
+    around the peak, annotate genomic region of the peak, statstical methods
+    for estimate the significance of overlap among ChIP peak data sets, and
+    incorporate GEO database for user to compare the own dataset with those
+    deposited in database. The comparison can be used to infer cooperative
+    regulation and thus can be used to generate hypotheses. Several
+    visualization functions are implemented to summarize the coverage of the
+    peak experiment, average profile and heatmap of peaks binding to TSS
+    regions, genomic annotation, distance to TSS, and overlap of peaks or
+    genes.
+Depends:
+    R (>= 3.3.0)
+Imports:
+    AnnotationDbi,
+    BiocGenerics,
+    boot,
+    DOSE,
+    IRanges,
+    GenomeInfoDb,
+    GenomicRanges,
+    GenomicFeatures,
+    ggplot2,
+    gplots,
+    graphics,
+    grDevices,
+    grid,
+    gridBase,
+    gtools,
+    methods,
+    plotrix,
+    dplyr,
+    parallel,
+    magrittr,
+    RColorBrewer,
+    rtracklayer,
+    S4Vectors (>= 0.9.25),
+    stats,
+    TxDb.Hsapiens.UCSC.hg19.knownGene,
+    UpSetR,
+    utils
+Suggests:
+    clusterProfiler,
+    ReactomePA,
+    org.Hs.eg.db,
+    knitr,
+    BiocStyle,
+    rmarkdown,
+    testthat
+URL: https://guangchuangyu.github.io/ChIPseeker
+BugReports: https://github.com/GuangchuangYu/ChIPseeker/issues
+VignetteBuilder: knitr
+ByteCompile: true
+License: Artistic-2.0
+biocViews: Annotation, ChIPSeq, Software, Visualization, MultipleComparison
+RoxygenNote: 5.0.1

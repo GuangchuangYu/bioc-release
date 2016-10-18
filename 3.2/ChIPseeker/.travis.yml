@@ -1,0 +1,38 @@
+language: r
+bioc_required: true
+
+r_packages:
+  - boot
+  - ggplot2
+  - gplots
+  - grDevices
+  - gtools
+  - plotrix
+  - dplyr
+  - parallel
+  - plyr
+  - magrittr
+  - RColorBrewer
+  - rmarkdown
+  - testthat
+  - knitr
+bioc_packages:
+  - org.Hs.eg.db
+  - clusterProfiler
+  - BiocGenerics
+  - AnnotationDbi
+  - IRanges
+  - GenomeInfoDb,
+  - GenomicFeatures,
+  - rtracklayer
+  - S4Vectors
+  - TxDb.Hsapiens.UCSC.hg19.knownGene
+  
+after_failure:
+  - ./travis-tool.sh dump_logs
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
+

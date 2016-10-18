@@ -1,0 +1,19 @@
+Package: clusterProfiler
+Imports: methods, DBI, qvalue, AnnotationDbi, GO.db, KEGG.db,
+    org.Hs.eg.db, org.Mm.eg.db, org.Sc.sgd.db
+Maintainer: Guangchuang Yu <guangchuangyu@gmail.com>
+License: Artistic-2.0
+Title: statistical analysis and visulization of functional profiles
+    for genes and gene clusters
+Type: Package
+Author: Guangchuang Yu, Li-Gen Wang
+Description: The package implements methods to analyze and visualize
+    functional profiles (GO and KEGG) of gene and gene clusters.
+Version: 1.2.1
+biocViews: Bioinformatics, Clustering, GO, Pathways, Visualization,
+    MultipleComparisons
+Depends: stats, ggplot2, plyr
+Suggests: GOSemSim, DOSE
+Collate: 'AllGenerics.R' 'clusterProfiler-package.R'
+    'compareCluster.R' 'enrichGO.R' 'enrichKEGG.R' 'groupGO.R'
+    'utilities.R' 'zzz.R'

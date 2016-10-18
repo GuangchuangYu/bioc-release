@@ -1,0 +1,7 @@
+*.DS_Store
+.svn
+.svnignore
+*~
+__init__.py
+__pycache__
+__init__.pyc

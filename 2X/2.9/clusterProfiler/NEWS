@@ -1,0 +1,37 @@
+CHANGES IN VERSION 1.2.1
+------------------------
+ o update CITATION. <2012-01-13 Mon>
+ 
+CHANGES IN VERSION 1.1.22
+------------------------
+ o update vignette. <2011-07-23 Thu> 
+ 
+ CHANGES IN VERSION 1.1.21
+------------------------
+ o update roxygen docs. <2011-07-23 Sat>
+ 
+CHANGES IN VERSION 1.1.20
+------------------------
+ o update roxygen docs. <2011-07-19 Wed>
+ 
+CHANGES IN VERSION 1.1.19
+------------------------
+ o change to using roxygen for generating Rd file. <2011-07-19 Tue>
+ 
+CHANGES IN VERSION 1.1.18
+------------------------
+ o clean up some codes. <2011-07-19 Tue>
+ 
+CHANGES IN VERSION 1.1.17
+------------------------
+ o Remove dependence of GOstats and Category. <2011-07-18 Mon>
+ 
+CHANGES IN VERSION 1.1.16
+------------------------
+ o Re-implement function enrichGO. <2011-07-18 Mon>
+ o add parameter readable, for mapping gene IDs to gene names. <2011-07-18 Mon>
+
+CHANGES IN VERSION 1.1.15
+------------------------
+ o Modified plot method of groupGOResult, with colour coded. <2011-06-15 Wed>
+

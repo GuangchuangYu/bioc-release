@@ -1,0 +1,9 @@
+.git
+.gitignore
+.Rhistory
+Makefile
+appveyor.yml
+.travis.yml
+README.Rmd
+docs
+mkdocs

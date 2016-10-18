@@ -1,0 +1,11 @@
+.travis.yml
+.gitignore
+.svnignore
+^appveyor\.yml$
+^.*\.DS_Store
+TODO.md
+appveyor.yml
+Makefile
+README.Rmd
+mkdocs
+docs

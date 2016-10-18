@@ -1,0 +1,7 @@
+.git
+Makefile
+README.Rmd
+.travis.yml
+appveyor.yml
+docs
+mkdocs

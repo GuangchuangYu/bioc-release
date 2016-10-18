@@ -1,0 +1,34 @@
+CHANGES IN VERSION 1.13.6
+------------------------
+ o remove dependency of organism annotation packages. <2012-03-09, Fri>
+   User not need to install all these annotation packages for using GOSemSim.
+   User only need to install the specific organism annotation package they want to calculate.
+ o update IC data sets for 1.14 release. <2012-03-30, Fri>
+
+ 
+CHANGES IN VERSION 1.13.5
+------------------------
+ o fixed BibTeX database file .bib.
+   month = , must be month = someMonth,
+   leave it blank will cause texi2dvi failed. <2012-03-01, Thu>
+
+CHANGES IN VERSION 1.13.4
+------------------------
+ o update vignette. <2012-02-28, Tue>
+
+CHANGES IN VERSION 1.13.3
+------------------------
+ o bug fixed for multiple annotation. <2012-02-01, Fri>
+
+CHANGES IN VERSION 1.13.2
+------------------------
+ o update infoContentMethod to make it consistent between DOSE and GOSemSim. <2011-12-31, Sat>
+
+CHANGES IN VERSION 1.13.1
+------------------------
+ o remove dependency of DOSE
+ o remove Streptomyces coelicolor support, as the genome wide annotation package contributor no longer supports it.
+
+CHANGES IN VERSION 1.11.2
+------------------------
+ o Using methods implemented in DOSE for semantic similarity calculation.

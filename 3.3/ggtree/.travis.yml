@@ -1,0 +1,34 @@
+## reference: http://docs.travis-ci.com/user/languages/r/
+
+language: r
+bioc_required: true
+
+apt_packages:
+  - libfftw3-dev
+
+r_packages:
+  - ape
+  - phylobase
+  - colorspace
+  - grid
+  - ggplot2
+  - gridExtra
+  - jsonlite
+  - magrittr
+  - reshape2
+  - rmarkdown
+  - testthat
+  - knitr
+bioc_packages:
+  - Biostrings
+  - EBImage
+  - BiocStyle
+  
+after_failure:
+  - ./travis-tool.sh dump_logs
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
+

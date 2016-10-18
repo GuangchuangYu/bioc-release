@@ -1,0 +1,10 @@
+.git
+.Rhistory
+R/.Rhistory
+Makefile
+TODO.md
+appveyor.yml
+.travis.yml
+README.Rmd
+docs
+mkdocs

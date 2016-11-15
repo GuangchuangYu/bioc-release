@@ -164,6 +164,9 @@ setReadable <- function(x, OrgDb, keytype="auto") {
 
     if (keytype == "auto") {
         keytype <- x@keytype
+        if (keytpe == 'UNKNOWN') {
+            stop("can't determine keytype automatically; need to set 'keytype' explicitly...")
+        }
     }
 
     if (x@readable)

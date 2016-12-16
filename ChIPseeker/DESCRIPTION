@@ -1,7 +1,7 @@
 Package: ChIPseeker
 Type: Package
 Title: ChIPseeker for ChIP peak Annotation, Comparison, and Visualization
-Version: 1.10.2
+Version: 1.10.3
 Authors@R: c(person(given = "Guangchuang", family = "Yu",
 	            email = "guangchuangyu@gmail.com",
 		    role  = c("aut", "cre")),
@@ -42,7 +42,7 @@ Imports:
     GenomeInfoDb,
     GenomicRanges,
     GenomicFeatures,
-    ggplot2,
+    ggplot2 (>= 2.2.0),
     gplots,
     graphics,
     grDevices,

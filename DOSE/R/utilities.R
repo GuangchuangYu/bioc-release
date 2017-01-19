@@ -103,6 +103,7 @@ computeIC <- function(ont="DO", organism="human"){
 ##' @importMethodsFrom AnnotationDbi get
 ##' @importMethodsFrom AnnotationDbi exists
 ##' @author Guangchuang Yu \url{http://guangchuangyu.github.io}
+##' @export
 gene2DO <- function(gene) {
     gene <- as.character(gene)
     if(!exists(".DOSEEnv")) .initial()

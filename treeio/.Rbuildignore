@@ -1,0 +1,12 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+Makefile
+.gitignore
+.svnignore
+.travis.yml
+appveyor.yml
+mkdocs
+docs
+README.Rmd
+.github
+treeio_sticker.R

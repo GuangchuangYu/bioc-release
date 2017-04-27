@@ -1,0 +1,12 @@
+.DS_Store
+R/.DS_Store
+vignettes/.DS_Store
+*~
+*.Rhistory
+.svn
+__init__.py
+__pycache__
+__init__.pyc
+.Rproj.user
+ggtree.Rproj
+.RData

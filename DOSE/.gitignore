@@ -1,0 +1,8 @@
+.DS_Store
+vignettes/.DS_Store
+.svn
+*~
+.Rhistory
+docs/__pycache__
+docs/__init__.py
+__init__.pyc

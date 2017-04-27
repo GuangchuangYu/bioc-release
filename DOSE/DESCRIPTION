@@ -1,0 +1,61 @@
+Package: DOSE
+Type: Package
+Title: Disease Ontology Semantic and Enrichment analysis
+Version: 3.2.0
+Authors@R: c(person(given = "Guangchuang", family = "Yu",
+	   	    email = "guangchuangyu@gmail.com",
+		    role  = c("aut", "cre")),
+	     person(given = "Li-Gen", family = "Wang",
+	            email = "reeganwang020@gmail.com",
+		    role  = "ctb"),
+	     person(given = "Vladislav", family = "Petyuk",
+	     	    email = "petyuk@gmail.com",
+		    role  = "ctb"),
+	     person(given = "Giovanni", family = "Dall'Olio",
+	            email = "giovanni.dallolio@upf.edu",
+		    role = "ctb"))
+Maintainer: Guangchuang Yu <guangchuangyu@gmail.com>
+Description: This package implements five methods proposed by
+    Resnik, Schlicker, Jiang, Lin and Wang respectively
+    for measuring semantic similarities among DO terms and
+    gene products. Enrichment analyses including hypergeometric
+    model and gene set enrichment analysis are also implemented
+    for discovering disease associations of high-throughput
+    biological data.
+Depends:
+    R (>= 3.3.1)
+Imports:
+    AnnotationDbi,
+    BiocParallel,
+    DO.db,
+    fgsea,
+    ggplot2,
+    GOSemSim (>= 2.0.0),
+    graphics,
+    grDevices,
+    grid,
+    igraph,
+    methods,
+    qvalue,
+    reshape2,
+    S4Vectors,
+    scales,
+    stats,
+    stats4,
+    utils
+Suggests:
+    BiocStyle,
+    clusterProfiler,
+    knitr,
+    org.Hs.eg.db,
+    testthat,
+    UpSetR
+VignetteBuilder: knitr
+ByteCompile: true
+License: Artistic-2.0
+URL: https://guangchuangyu.github.io/DOSE
+BugReports: https://github.com/GuangchuangYu/DOSE/issues
+Packaged: 2011-12-28 08:16:14 UTC; root
+biocViews: Annotation, Visualization, MultipleComparison, GeneSetEnrichment,
+    Pathways, Software
+RoxygenNote: 5.0.1

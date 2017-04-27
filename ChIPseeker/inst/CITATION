@@ -1,0 +1,20 @@
+citHeader("Please cite G. Yu (2015) for using ChIPseeker. In addition, please cite clusterProfiler/DOSE/ReactomePA when using functional enrichment analyses.")
+
+citEntry(entry  ="ARTICLE",
+         title  = "ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparison and visualization",
+         author = personList(
+             as.person("Guangchuang Yu"),
+             as.person("Li-Gen Wang"),
+             as.person("Qing-Yu He")
+             ),
+         journal = "Bioinformatics",
+         year    = "2015",
+         volume  = "31",
+         number  = "14",
+         pages   = "2382-2383",
+         PMID    = "25765347",
+         doi     = "10.1093/bioinformatics/btv145",
+         textVersion = paste("Guangchuang Yu, Li-Gen Wang, and Qing-Yu He.",
+             "ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparison and visualization.",
+             "Bioinformatics 2015, 31(14):2382-2383")
+         )

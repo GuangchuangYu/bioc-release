@@ -1,0 +1,19 @@
+.travis.yml
+.gitignore
+.svnignore
+^appveyor\.yml$
+^.*\.DS_Store
+TODO.md
+appveyor.yml
+Makefile
+README.Rmd
+mkdocs
+docs
+logo.png.github
+.github
+<<<<<<< HEAD
+^.*\.Rproj$
+^\.Rproj\.user$
+=======
+ggtree_sticker.R
+>>>>>>> 6c3d0a213ebba123a58af768ef6d7b4ec93b85d1
